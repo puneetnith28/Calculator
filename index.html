@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+
+    <style>
+      body {
+        background-image: url("simple.avif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body onkeydown="myFunction(event)">
+    <div class="container calc flex flex-col items-center">
+      <h1 class="text-center">Calculator</h1>
+      <div class="row">
+        <input class="input" type="text" placeholder="0" readonly />
+      </div>
+      <div class="row">
+        <button class="button top-btn" onclick="clr()">AC</button>
+        <button class="button top-btn" onclick="back()">⬅️</button>
+        <button class="button top-btn" onclick="dis('%')">%</button>
+        <button class="button right-btn" onclick="dis('/')">÷</button>
+      </div>
+      <div class="row">
+        <button class="button" onclick="dis('7')">7</button>
+        <button class="button" onclick="dis('8')">8</button>
+        <button class="button" onclick="dis('9')">9</button>
+        <button class="button right-btn" onclick="dis('*')">X</button>
+      </div>
+      <div class="row">
+        <button class="button" onclick="dis('4')">4</button>
+        <button class="button" onclick="dis('5')">5</button>
+        <button class="button" onclick="dis('6')">6</button>
+        <button class="button right-btn" onclick="dis('-')">-</button>
+      </div>
+      <div class="row">
+        <button class="button" onclick="dis('1')">1</button>
+        <button class="button" onclick="dis('2')">2</button>
+        <button class="button" onclick="dis('3')">3</button>
+        <button class="button right-btn" onclick="dis('+')">+</button>
+      </div>
+      <div class="row">
+        <button class="button" onclick="dis('0')">0</button>
+        <button class="button" onclick="dis('00')">00</button>
+        <button class="button" onclick="dis('.')">.</button>
+        <button class="button right-btn" onclick="solve()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
