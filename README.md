@@ -1,21 +1,52 @@
-Simple Calculator:
-A sleek and responsive web-based calculator built with HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations and has a modern background image to enhance user experience.
+# 🧮 Arithmetic Calculator
 
-🧰 Tech Stack:
+A responsive, visually appealing, and fully functional calculator built using **HTML**, **CSS**, and **JavaScript**. It supports basic arithmetic operations with a modern and intuitive design.
 
-HTML5
-CSS3
-JavaScript
-
-🎯 Features:
-
---> Basic arithmetic: Addition, Subtraction, Multiplication, Division, Modulo
---> Clear (AC) and Backspace (⬅️) functionality
---> Decimal and double zero support
---> Responsive layout with custom background
---> Keyboard input support (via onkeydown handler)
+---
 
 
+## 🚀 Features
+
+- ✨ Clean, modern UI with rounded buttons and vibrant operator styling.
+- ✅ Fully functional:
+  - Addition (`+`)
+  - Subtraction (`-`)
+  - Multiplication (`×`)
+  - Division (`÷`)
+  - Modulo (`%`)
+  - Decimal support (`.`)
+  - Double zero (`00`) input
+  - Clear all (`AC`)
+  - Backspace button
+- 🖥️ Responsive layout – works well on both desktop and mobile.
+- ⌨️ Simple and effective keyboard-like interface.
+-  Keyboard input support.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Markup structure  
+- **CSS3** – Stylish and responsive layout  
+- **JavaScript** – Calculator logic and event handling  
+
+---
+
+## 🔮 Future Enhancements
+
+- Enable parentheses for complex expressions.
+- Implement a history log of calculations.
+- Theme toggle (dark/light mode).
+
+---
+
+## 💻 How to Use
+
+1. Clone the repository.
+2. Open `index.html` in any modern browser.
+3. Start calculating!
+
+---
 
 Acknowledgements:
 
